@@ -161,3 +161,7 @@ omarchy-shell local.hyprsplit-workspaces debugState
 Record your original active workspace on each screen and focused monitor before exercising the example. Verify that selecting local 4 on the second output chooses global 14 while the first output's active indicator stays unchanged. Switch focus and select a workspace on the first output; the second bar should keep its own highlight. Select local 6 to check that an active workspace beyond the baseline five appears. Also click the actual buttons on both bars and inspect their spacing, glyphs, and highlights. Restore the original workspaces and focus afterwards.
 
 The original user-owned clone passed real desktop IPC/delegate tests for those transitions and restoration. The generic published example was then installed temporarily on the same M1 desktop with an explicit monitor order: its external local workspace 4 mapped to global 14, both screen instances reported correct active state, and reference/candidate bar captures were visually compared for spacing, glyphs, clipping, and independent highlights. The original shell configuration and workspace views were restored afterwards. Verify your own setup too: automated logic checks do not exercise QML reactivity, real monitor discovery, or rendering.
+
+## Maintenance backlog
+
+The [GitHub Project](https://github.com/users/Connorbelez/projects/16) tracks the roadmap issues and release qualification. See [maintenance](MAINTAINERS.md) for ownership and review expectations.
