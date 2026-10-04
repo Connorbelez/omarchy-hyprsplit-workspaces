@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Qualify hotplug and reversed output discovery",
+    "body": "Acceptance: provide reproducible verification and record exact source/dependency revisions. See ROADMAP.md for scope."
+  },
+  {
+    "title": "Test a third output and non-ten-workspace ranges",
+    "body": "Acceptance: provide reproducible verification and record exact source/dependency revisions. See ROADMAP.md for scope."
+  },
+  {
+    "title": "Capture a redacted demo and configuration example",
+    "body": "Acceptance: provide reproducible verification and record exact source/dependency revisions. See ROADMAP.md for scope."
+  },
+  {
+    "title": "Propose the canonical nwg-displays readback fix upstream",
+    "body": "Acceptance: provide reproducible verification and record exact source/dependency revisions. See ROADMAP.md for scope."
+  }
+]

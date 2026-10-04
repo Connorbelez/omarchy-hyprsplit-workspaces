@@ -1,0 +1,6 @@
+#!/bin/bash
+
+exec /usr/bin/nwg-displays \
+  --monitors_path "$HOME/.config/hypr/nwg-monitors.conf" \
+  --workspaces_path "$HOME/.config/hypr/nwg-workspaces.conf" \
+  --num_ws 20 "$@"

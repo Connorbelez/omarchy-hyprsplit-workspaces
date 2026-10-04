@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Displays Settings
+GenericName=Monitor and workspace configuration
+Comment=Arrange screens and configure display settings
+Exec=manage-displays
+Icon=nwg-displays
+Terminal=false
+Categories=Settings;DesktopSettings;

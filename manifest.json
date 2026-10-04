@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "local.hyprsplit-workspaces",
+  "name": "Per-monitor Workspaces",
+  "version": "1.0.0",
+  "author": "Connor Beleznay; derived from Omarchy",
+  "description": "Monitor-local workspace indicators for the Hyprsplit Lua library",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Workspaces.qml"
+  },
+  "barWidget": {
+    "displayName": "Per-monitor Workspaces",
+    "description": "Monitor-local workspace indicators for the Hyprsplit Lua library",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.workspaces"
+  }
+}
