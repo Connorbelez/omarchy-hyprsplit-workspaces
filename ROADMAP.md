@@ -7,4 +7,4 @@ No stable release is declared by this setup. Complete and record these gates bef
 - Capture a redacted demo and configuration example.
 - Propose the canonical nwg-displays readback fix upstream.
 
-Each gate needs a reproducible test or a reviewable evidence record. GitHub issues track the work; a linked GitHub Project groups the backlog when Projects authorization is available.
+Each gate needs a reproducible test or a reviewable evidence record. GitHub issues track the work; the [GitHub Project](https://github.com/users/Connorbelez/projects/16) groups the backlog.
